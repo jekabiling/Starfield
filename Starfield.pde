@@ -119,7 +119,7 @@ class OddballParticle extends Particle {
     float py = (float)y - dy * trailLength;
   
     stroke(particleColor);
-    strokeWeight(3);
+    strokeWeight(6);
     line(px, py, (float)x, (float)y);
   }
 }
